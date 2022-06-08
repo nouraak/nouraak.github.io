@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!--Bootstrap Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Bootstrap link for CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--CSS link-->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>My portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            text-align: center;
+            padding: 32px;
+        }
+
+       
+
+
+
+    </style>
+</head>
+
+<body>
+    <!--centered navbar, same color as background-->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(37,37,37);">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <a href="/">
+                <div class="alternativelogo-image" style="position:absolute; padding: 5px;">
+                    <img src="images/alternativelogo.png" class="img-fluid" width="60%">
+                </div>
+            </a>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+                <!-- Left links -->
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <!-- <li class="nav-item">
+            <a class="nav-link" href="skills.html">Skills</a>
+          </li> -->
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+
+    <!-- Header -->
+    <div class="header" id="myHeader">
+        <h1>Graphics and Illustrations</h1>
+        <p>I've always had a passion for drawing and painting and recently I've been experimenting with graphic design
+            and illustration. I mostly use procreate to draw things I love or to experiment with different drawing
+            styles.</p>
+    </div>
+
+    <br>
+
+
+    <!--content-->
+    <!--create a slider for the images-->
+    <div class="row" style="height:600px;">
+        <div class="col-7" style="height:600px;">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" style="text-align: center;" src="graphics/top1.jpeg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="graphics/top2.jpeg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-50" src="graphics/friend.jpeg" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+
+        <div class="col-5" style="height:600px;">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 style="color:#00564d;">1. People</h2>
+            <p>I love drawing and coloring pictures of people in this style. It allows a margin of abstractness but still features, textures, and colors are vibrant and visible.</p>
+        </div>
+        
+    </div>
+
+    <div class="row" style="height:600px;">
+        <div class="col-5" style="height:600px;">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 style="color:#00564d;text-align: right;">2. Objects and Lines</h2>
+            <p style="text-align: right;">I sometimes like to draw detailed objects or draw very abstract lines in various colors. I like to experiment with different typography as well.</p>
+        </div>
+        <div class="col-7" style="height:600px;">
+            <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-50" style="text-align: center;" src="graphics/nike.jpeg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-50" src="graphics/girl.jpeg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-50" src="graphics/walk.jpeg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-50" src="graphics/kind.jpeg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="graphics/mars.jpeg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-50" src="graphics/orange.jpeg" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+        
+    </div>
+
+    
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
